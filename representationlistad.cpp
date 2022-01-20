@@ -157,9 +157,9 @@ void initialise_list_ad (std::vector<Sommet>& list_sommet, std::vector<Arete>& l
     Sommet S4 = create_sommet(3, "Ville 4", list_sommet);
     Sommet S5 = create_sommet(4, "Ville 5", list_sommet);
     create_arete(1, S1,S2, list_arete_tot);
-    create_arete(1, S1,S3, list_arete_tot);
-    create_arete(1, S1,S5, list_arete_tot);
-    create_arete(1, S2,S3, list_arete_tot);
+    create_arete(2, S1,S3, list_arete_tot);
+    create_arete(2, S1,S5, list_arete_tot);
+    create_arete(2, S2,S3, list_arete_tot);
     create_arete(1, S3,S4, list_arete_tot);
     create_arete(1, S4,S2, list_arete_tot);
     create_arete(1, S4,S5, list_arete_tot);

@@ -54,9 +54,9 @@ std::vector <std::vector <double>> initialise_mat_ad (std::vector<Sommet>& list_
     std::vector<double> column (list_sommet.size(),NAN);
     std::vector <std::vector <double>> mat_ad (list_sommet.size() , column); // La matrice vide
     create_arete2(1, S1,S2, mat_ad);
-    create_arete2(1, S1,S3, mat_ad);
-    create_arete2(1, S1,S5, mat_ad);
-    create_arete2(1, S2,S3, mat_ad);
+    create_arete2(2, S1,S3, mat_ad);
+    create_arete2(2, S1,S5, mat_ad);
+    create_arete2(2, S2,S3, mat_ad);
     create_arete2(1, S3,S4, mat_ad);
     create_arete2(1, S4,S2, mat_ad);
     create_arete2(1, S4,S5, mat_ad);
